@@ -10,4 +10,6 @@ defaultRoutes.get('/', (req:Request,res:Response)=>{
 
     })
 
-});
+})
+
+export  default defaultRoutes //aqui exportamos el objeto que declaramos 

@@ -9,3 +9,4 @@ defaultRoutes.get('/', (req, res) => {
         msj: "todo funciona perfecto"
     });
 });
+exports.default = defaultRoutes; //aqui exportamos el objeto que declaramos 
