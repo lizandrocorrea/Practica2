@@ -10,3 +10,5 @@ server.app.use('/',defaultRoutes);//rutas por defecto
 server.Start(()=>{
     console.log(`Servidor corriendo en puerto:${server.port}`)
 })
+
+//para probar utilizar nodemon  y utlizar postman
