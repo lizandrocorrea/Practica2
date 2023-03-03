@@ -7,5 +7,10 @@ export default class Server{
     constructor(){
         this.app=express();
     }
+//el metodo Start es para inicializar el servidor 
+
+    Start(callback:Function){
+        this.app.listen(this.port,callback())
+    }
 
 }

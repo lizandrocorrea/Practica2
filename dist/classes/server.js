@@ -9,5 +9,9 @@ class Server {
         this.port = 3000;
         this.app = (0, express_1.default)();
     }
+    //el metodo Start es para inicializar el servidor 
+    Start(callback) {
+        this.app.listen(this.port, callback());
+    }
 }
 exports.default = Server;
